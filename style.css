@@ -1,0 +1,91 @@
+body {
+    width: 320px;
+    
+   
+}
+.burger {
+  background: url("burger.png") no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 24px;
+  margin-right: 16px;
+  
+}
+.search {
+    background: url("search.png") no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    margin-left: 78px;
+}
+.main-menu {
+    margin-top: 50px;
+    padding:0;
+    list-style: none;
+   
+  }
+  .main-menu li {
+    margin-bottom: 32px;
+    padding-left: 24px;
+  }
+  .main-menu a {
+   
+    text-decoration: none;
+    color: #1B1C21;
+  }
+  .main-menu a:hover {
+    color: #7E7E82;
+    box-shadow:
+      -22px 0px 0px 5px white,
+      -26px 0px 0px 5px #41F6D7;
+  }
+.burger:hover {
+    filter: drop-shadow(0px 0px 2px red); 
+}
+.search:hover {
+    filter: drop-shadow(0px 0px 2px red); 
+}
+.chat.copy {
+    background: url("chat copy.png") no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    margin-top: 268px;
+    margin-left: 24px;
+}
+.chat {
+    background: url("chat.png") no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+}
+.profile {
+    background: url("profile.png") no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    margin-left: 16px;
+}
+.contact {
+    margin: 0px;
+    padding: 16px 24px;
+    list-style: none;
+}
+.contact a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+.contact a:hover {
+    color: #7E7E82;
+  }
+  .chat.copy:hover {
+    filter: drop-shadow(0px 0px 2px red); 
+}
+.chat:hover {
+    filter: drop-shadow(0px 0px 2px red); 
+}
+.profile:hover {
+    filter: drop-shadow(0px 0px 2px red); 
+}
